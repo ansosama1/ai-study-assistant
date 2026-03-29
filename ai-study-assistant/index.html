@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Study Assistant</title>
+<style>
+    body {
+        font-family: Arial;
+        background: linear-gradient(135deg, #0f172a, #1e293b);
+        color: white;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: auto;
+        background: #111827;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    textarea {
+        width: 100%;
+        height: 150px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        margin-top: 15px;
+        background: #1f2937;
+        color: white;
+    }
+
+    button {
+        margin: 5px;
+        margin-top: 15px;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        background: #3b82f6;
+        color: white;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background: #2563eb;
+    }
+
+    #output {
+        margin-top: 20px;
+        background: #1f2937;
+        padding: 15px;
+        border-radius: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🤖 AI Study Assistant</h1>
+    <p>Summarize your study content instantly</p>
+
+    <textarea id="input" placeholder="Paste your text here..."></textarea>
+
+    <br>
+    <button onclick="summarize()">Summarize</button>
+    
+    <div style="margin-top:15px;">
+        <button onclick="summarize()">Summarize</button>
+        <button onclick="generateQuestions()">Generate Questions</button>
+        <button onclick="explainSimple()">Explain Like I'm 5</button>
+    </div>
+
+    <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
