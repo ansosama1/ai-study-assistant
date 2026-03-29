@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "YOUR_API_KEY_HERE";
 
 async function callAI(prompt) {
     const output = document.getElementById("output");
