@@ -19,7 +19,7 @@ An AI-powered web application that helps students study smarter using real artif
 
 ## 🔧 Setup
 
-1. Clone the repo: git clone https://github.com/your-username/ai-study-assistant.git
+1. Clone the repo: https://ansosama1.github.io/ai-study-assistant/
 
 
 2. Open `script.js` and add your API key:
